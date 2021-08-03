@@ -1,5 +1,5 @@
 function exercice3(arr) {
-  return arr.filter(data=> data.id === 2);
+  return arr.find( location => location.id === 2);
 }
 
 /* Résultat attendu =
